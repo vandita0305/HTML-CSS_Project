@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LOGIN</title>
+
+
+<link rel="stylesheet" type="text/css" href="logincss.css">
+
+</head>
+<body>
+  <a href="D:\TECH\Desktop\NMIMS\SEM-4\web prog\Mini_Project\home_page\src\IncredibleIndia.html" class="back-button" ><i class="fas fa-chevron-left"></i>BACK</a>
+  
+<div class="container" id="container">
+  <div class="form-container sign-up-container">
+    <form action="#">
+      <h1>Create Account</h1>
+      <div class="social-container">
+        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <span>or use your email for registration</span>
+      <input type="text" placeholder="Name" />
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+      <button>Sign Up</button>
+    </form>
+  </div>
+  <div class="form-container sign-in-container">
+    <form action="#">
+      <h1>Sign in</h1>
+      <div class="social-container">
+        <a href="https://www.instagram.com/" target="_blank">
+            <img src="insta.jpg" alt="instagram icon">
+            <i class="fab fa-instagram-ig"></i></a>
+        <a href="https://myaccount.google.com/" target="_blank">
+                <img src="google.jpg" alt="google icon">
+                <i class="fab fa-google-G"></i>
+              </a>
+        <a href="https://www.linkedin.com" target="_blank">
+                <img src="linkedin.jpg" Linkedin icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+      </div>
+      
+      <span>or use your account</span>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+      <b><a href="D:\TECH\Desktop\NMIMS\SEM-4\web prog\Mini_Project\explore\exploree.html" target="_blank" onclick="return confirm('successfully logged in');" >SIGN IN</a></b>
+    </form>
+  </div>
+  <div class="overlay-container">
+    <div class="overlay">
+      <div class="overlay-panel overlay-left">
+        <h1>Welcome Back!</h1>
+        <p>To keep connected with us please login with your personal info</p>
+        <button class="ghost" id="signIn">SIGN IN</button>
+      </div>
+
+      <div class="overlay-panel overlay-right">
+        <h1>Hello!</h1>
+        <p>Enter your personal details and start journey with us.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  
+  const signInButton = document.getElementById('Sign In');
+/* */
+ 
+  signInButton.addEventListener(
+    'click', function() 
+  {
+  
+    alert('Welcome back!');
+  }
+                              );
+</script>
+</body>
+</html>
